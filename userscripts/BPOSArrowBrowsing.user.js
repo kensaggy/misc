@@ -20,7 +20,7 @@ function keyPress(e) {
         }
         
         if (key == "46") { //capture delete key (fn+backspace on Mac), should trigger onClkTb('delete'); 
-            deleteLink.onclick();s
+            deleteLink.onclick();
         }
         
         return false;
